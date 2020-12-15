@@ -20,32 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d22fb04f-b738-4251-a061-0a14950d0f4f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Images/Blocks.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Images/Blocks/Corner Blocks.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Images/Blocks/Corner Blocks/Activated.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Images/Blocks/Corner Blocks/Activated.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Images/Blocks/Corner Blocks/Idle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Images/Blocks/Corner Blocks/Idle.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Images/Blocks/Straight Blocks.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Images/Blocks/Straight Blocks/Activated.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Images/Blocks/Straight Blocks/Activated.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Images/Blocks/Straight Blocks/Idle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Images/Blocks/Straight Blocks/Idle.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Blocks.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Blocks/Corner.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Blocks/Corner.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Blocks/Straight.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Blocks/Straight.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Blocks.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Images/Blocks/Wall.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Images/Blocks/Wall.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Blocks/CornerBlock.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Blocks/CornerBlock.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Blocks/StraightBlock.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Blocks/StraightBlock.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Background.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Images/Background.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Bird.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Images/Bird.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Blocks/Corner.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Blocks/Corner.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Blocks/Straight.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Blocks/Straight.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Input/InputManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Input/InputManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Input/PlayerInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Input/PlayerInput.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Input/PlayerInput.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Input/PlayerInput.inputactions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Blocks/Block.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Blocks/Block.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,8 +49,10 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Scripts/Blocks/Block.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Input/InputManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Blocks/StraightBlock.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Blocks/CornerBlock.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Blocks/Block.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" />
     </changedPaths>
   </component>
@@ -122,7 +112,9 @@
       <workItem from="1607620064529" duration="2264000" />
       <workItem from="1607871597295" duration="4776000" />
       <workItem from="1607962530941" duration="3870000" />
-      <workItem from="1608050323621" duration="1635000" />
+      <workItem from="1608050323621" duration="2473000" />
+      <workItem from="1608054484847" duration="1067000" />
+      <workItem from="1608061876983" duration="1215000" />
     </task>
     <servers />
   </component>
