@@ -21,124 +21,82 @@ namespace Input
             ""id"": ""ec878088-f162-412b-87d8-ef4046b9f06b"",
             ""actions"": [
                 {
-                    ""name"": ""Move"",
+                    ""name"": ""Up"",
                     ""type"": ""Button"",
-                    ""id"": ""cb3b1799-d7ee-4743-951e-8d8eccd47bfa"",
+                    ""id"": ""9b3aeb9f-1403-4361-9bf4-0e1c64c6db01"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
-                    ""interactions"": """"
+                    ""interactions"": ""Press""
+                },
+                {
+                    ""name"": ""Down"",
+                    ""type"": ""Button"",
+                    ""id"": ""edd6fc57-4c5a-4cab-aabe-dd4a37f274aa"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": ""Press""
+                },
+                {
+                    ""name"": ""Left"",
+                    ""type"": ""Button"",
+                    ""id"": ""dcff8458-66e2-445b-a14a-2f3b85d7cadf"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": ""Press""
+                },
+                {
+                    ""name"": ""Right"",
+                    ""type"": ""Button"",
+                    ""id"": ""30ed2855-1d7d-4ee5-beea-982b0a8de84a"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": ""Press""
                 }
             ],
             ""bindings"": [
                 {
-                    ""name"": ""WASDKeys"",
-                    ""id"": ""51ae4f37-eeb1-451c-94f9-1106b33f8eb5"",
-                    ""path"": ""2DVector"",
-                    ""interactions"": ""Press"",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Move"",
-                    ""isComposite"": true,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": ""up"",
-                    ""id"": ""8690835f-0a7f-4e91-9576-67d290a6184b"",
+                    ""name"": """",
+                    ""id"": ""e040961e-9aa5-45ee-a14b-cded1c843a30"",
                     ""path"": ""<Keyboard>/w"",
                     ""interactions"": """",
                     ""processors"": """",
-                    ""groups"": ""Keyboard & Mouse"",
-                    ""action"": ""Move"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""down"",
-                    ""id"": ""e4d920a9-2a19-4913-96e1-03bf3af165ab"",
-                    ""path"": ""<Keyboard>/s"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Keyboard & Mouse"",
-                    ""action"": ""Move"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""left"",
-                    ""id"": ""0caf23b5-5e2f-44cb-b17a-bc04d91dda98"",
-                    ""path"": ""<Keyboard>/a"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Keyboard & Mouse"",
-                    ""action"": ""Move"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""right"",
-                    ""id"": ""d34a21ac-d092-4085-9435-64512ece9092"",
-                    ""path"": ""<Keyboard>/d"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Keyboard & Mouse"",
-                    ""action"": ""Move"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""ArrowKeys"",
-                    ""id"": ""7771f594-6b4f-44d7-8995-47734b54f877"",
-                    ""path"": ""2DVector"",
-                    ""interactions"": ""Press"",
-                    ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Move"",
-                    ""isComposite"": true,
+                    ""action"": ""Up"",
+                    ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
                 {
-                    ""name"": ""up"",
-                    ""id"": ""5f10401d-00e7-454a-aff3-08354a12797e"",
-                    ""path"": ""<Keyboard>/upArrow"",
+                    ""name"": """",
+                    ""id"": ""b8258fbf-c31c-45e7-be14-2e262ab76aed"",
+                    ""path"": ""<Keyboard>/s"",
                     ""interactions"": """",
                     ""processors"": """",
-                    ""groups"": ""Keyboard & Mouse"",
-                    ""action"": ""Move"",
+                    ""groups"": """",
+                    ""action"": ""Down"",
                     ""isComposite"": false,
-                    ""isPartOfComposite"": true
+                    ""isPartOfComposite"": false
                 },
                 {
-                    ""name"": ""down"",
-                    ""id"": ""35fdfeb2-1476-45e3-bcf6-254d43e12674"",
-                    ""path"": ""<Keyboard>/downArrow"",
+                    ""name"": """",
+                    ""id"": ""f8bfcbf3-092d-448c-ae43-69041899d6a7"",
+                    ""path"": ""<Keyboard>/a"",
                     ""interactions"": """",
                     ""processors"": """",
-                    ""groups"": ""Keyboard & Mouse"",
-                    ""action"": ""Move"",
+                    ""groups"": """",
+                    ""action"": ""Left"",
                     ""isComposite"": false,
-                    ""isPartOfComposite"": true
+                    ""isPartOfComposite"": false
                 },
                 {
-                    ""name"": ""left"",
-                    ""id"": ""906efd4f-3286-40ab-9f50-da96f475600b"",
-                    ""path"": ""<Keyboard>/leftArrow"",
+                    ""name"": """",
+                    ""id"": ""2b204fbd-8a06-4843-b2dd-b2572ce2ca00"",
+                    ""path"": ""<Keyboard>/d"",
                     ""interactions"": """",
                     ""processors"": """",
-                    ""groups"": ""Keyboard & Mouse"",
-                    ""action"": ""Move"",
+                    ""groups"": """",
+                    ""action"": ""Right"",
                     ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""right"",
-                    ""id"": ""b53fbe5f-be2f-4423-b69c-ddbe7e178436"",
-                    ""path"": ""<Keyboard>/rightArrow"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Keyboard & Mouse"",
-                    ""action"": ""Move"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -164,7 +122,10 @@ namespace Input
 }");
             // Player
             m_Player = asset.FindActionMap("Player", throwIfNotFound: true);
-            m_Player_Move = m_Player.FindAction("Move", throwIfNotFound: true);
+            m_Player_Up = m_Player.FindAction("Up", throwIfNotFound: true);
+            m_Player_Down = m_Player.FindAction("Down", throwIfNotFound: true);
+            m_Player_Left = m_Player.FindAction("Left", throwIfNotFound: true);
+            m_Player_Right = m_Player.FindAction("Right", throwIfNotFound: true);
         }
 
         public void Dispose()
@@ -214,12 +175,18 @@ namespace Input
         // Player
         private readonly InputActionMap m_Player;
         private IPlayerActions m_PlayerActionsCallbackInterface;
-        private readonly InputAction m_Player_Move;
+        private readonly InputAction m_Player_Up;
+        private readonly InputAction m_Player_Down;
+        private readonly InputAction m_Player_Left;
+        private readonly InputAction m_Player_Right;
         public struct PlayerActions
         {
             private @PlayerInput m_Wrapper;
             public PlayerActions(@PlayerInput wrapper) { m_Wrapper = wrapper; }
-            public InputAction @Move => m_Wrapper.m_Player_Move;
+            public InputAction @Up => m_Wrapper.m_Player_Up;
+            public InputAction @Down => m_Wrapper.m_Player_Down;
+            public InputAction @Left => m_Wrapper.m_Player_Left;
+            public InputAction @Right => m_Wrapper.m_Player_Right;
             public InputActionMap Get() { return m_Wrapper.m_Player; }
             public void Enable() { Get().Enable(); }
             public void Disable() { Get().Disable(); }
@@ -229,16 +196,34 @@ namespace Input
             {
                 if (m_Wrapper.m_PlayerActionsCallbackInterface != null)
                 {
-                    @Move.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnMove;
-                    @Move.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnMove;
-                    @Move.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnMove;
+                    @Up.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnUp;
+                    @Up.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnUp;
+                    @Up.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnUp;
+                    @Down.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnDown;
+                    @Down.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnDown;
+                    @Down.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnDown;
+                    @Left.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnLeft;
+                    @Left.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnLeft;
+                    @Left.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnLeft;
+                    @Right.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnRight;
+                    @Right.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnRight;
+                    @Right.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnRight;
                 }
                 m_Wrapper.m_PlayerActionsCallbackInterface = instance;
                 if (instance != null)
                 {
-                    @Move.started += instance.OnMove;
-                    @Move.performed += instance.OnMove;
-                    @Move.canceled += instance.OnMove;
+                    @Up.started += instance.OnUp;
+                    @Up.performed += instance.OnUp;
+                    @Up.canceled += instance.OnUp;
+                    @Down.started += instance.OnDown;
+                    @Down.performed += instance.OnDown;
+                    @Down.canceled += instance.OnDown;
+                    @Left.started += instance.OnLeft;
+                    @Left.performed += instance.OnLeft;
+                    @Left.canceled += instance.OnLeft;
+                    @Right.started += instance.OnRight;
+                    @Right.performed += instance.OnRight;
+                    @Right.canceled += instance.OnRight;
                 }
             }
         }
@@ -254,7 +239,10 @@ namespace Input
         }
         public interface IPlayerActions
         {
-            void OnMove(InputAction.CallbackContext context);
+            void OnUp(InputAction.CallbackContext context);
+            void OnDown(InputAction.CallbackContext context);
+            void OnLeft(InputAction.CallbackContext context);
+            void OnRight(InputAction.CallbackContext context);
         }
     }
 }
